@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Form from "./Components/Form";
 
 const App = () => {
   let [username, setUsername] = useState("");
