@@ -1,0 +1,108 @@
+.App {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 550px;
+    min-width: 340px;
+    /* outline: 1px solid red; */
+}
+
+.App>h5 {
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+/* Sign In Container Styles */
+
+.signIn-container,
+.profile-container {
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+    min-width: 300px;
+}
+
+.signIn-container>h5 {
+    text-align: start;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.signIn-container>h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.signIn-container label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.signIn-container button,
+.profile-container button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 14px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.msgDisplay {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.profile h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid #dedede;
+    display: block;
+    margin: auto;
+
+}
+
+.profile-details {
+    padding: 10px 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile-details h4 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
