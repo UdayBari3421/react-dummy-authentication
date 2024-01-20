@@ -27,10 +27,10 @@ const App = () => {
 
   function ChangeRoute() {
     console.log(username, password);
-    if (username != "" || password != "") {
+    if (username !== "" || password !== "") {
       document.querySelector("#err").innerHTML = "Please feel detail to login";
     }
-    if (!credentials.message && username != "" && password != "") {
+    if (!credentials.message && username !== "" && password !== "") {
       document.querySelector("#root").innerHTML = `
         <div class="profile">
             <img src="${credentials.image}" alt="${credentials.firstName}" />
